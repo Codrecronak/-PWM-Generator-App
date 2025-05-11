@@ -1,0 +1,60 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2382936792" file="C:\Users\Ronak bansal\Desktop\matlab\BT23EEE066_RONAK_BANSAL.prj" location="C:\Users\Ronak bansal\Desktop\matlab" name="BT23EEE066_RONAK_BANSAL" target="target.mlapps" target-name="Package App">
+    <param.appname>BT23EEE066_RONAK_BANSAL</param.appname>
+    <param.authnamewatermark>ronak bansal</param.authnamewatermark>
+    <param.email>ronaksspw@gmail.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>it generates pulse width modulated signal</param.summary>
+    <param.description>The primary objective of this MATLAB app is to generate a Pulse Width Modulation (PWM) signal based on user-defined carrier and modulating signals. The app provides a graphical user interface (GUI) where users can input these signals and visualize the corresponding PWM output</param.description>
+    <param.screenshot>C:\Users\Ronak bansal\AppData\Local\Temp\tp2dff58b2_17e6_4a00_a21f_1a9a19b20269.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>2944fc07-335b-4e2b-b308-06fcddc365a8</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\PWM_SIGNAL_GENERATOR.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Ronak bansal\Desktop" name="matlab" optional="false">C:\Users\Ronak bansal\Desktop\matlab</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
